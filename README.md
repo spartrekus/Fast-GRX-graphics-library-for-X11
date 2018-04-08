@@ -1,6 +1,8 @@
 # Fast-GRX-graphics-library-for-X11
 Fast GRX graphics library for X11
 
+Herewith a version that is adapted for Raspberry PI. Just run : ./configure ; make ; sudo make install  //(as usual)
+
 Running on Raspberry PI
 
 
