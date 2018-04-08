@@ -5,6 +5,7 @@ Herewith a version that is adapted for Raspberry PI. Just run : ./configure ; ma
 
 Running on Raspberry PI
 
+Feel Free to programme fast SVGA games running on Raspberry PI, but also portable to FreeDOS with GRX library ;) 
 
 ![](https://raw.githubusercontent.com/spartrekus/Fast-GRX-graphics-library-for-X11/master/2018-04-08-120055_675x550_scrot.png)
 
