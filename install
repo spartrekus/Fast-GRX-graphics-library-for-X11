@@ -1,0 +1,31 @@
+
+============================
+!= GRX For Raspberry PI 
+============================
+
+
+make -C src -f makefile.x11 install
+install -m 0755 -d /usr/local/lib
+install -m 0755 -d /usr/local/include
+install -m 0644 ../lib/unix/libgrx20X.a /usr/local/lib
+install -m 0755 ../lib/unix/libgrx20X.so.2.4.9 /usr/local/lib
+ln -sf libgrx20X.so.2.4.9 /usr/local/lib/libgrx20X.so.2
+ln -sf libgrx20X.so.2 /usr/local/lib/libgrx20X.so
+install -m 0644 ../include/grx20.h /usr/local/include
+install -m 0644 ../include/grxkeys.h /usr/local/include
+install -m 0644 ../include/libbcc.h /usr/local/include
+install -m 0644 ../addons/print/grxprint.h /usr/local/include
+
+
+/usr/local/include/grx20.h
+/usr/local/include/grxprint.h
+/usr/local/include/grxkeys.h
+/usr/local/lib/libgrx20X.so
+/usr/local/lib/libgrx20X.a
+/usr/local/lib/libgrx20X.so.2.4.9
+/usr/local/lib/libgrx20X.so.2
+/usr/share/mime/application/x-font-libgrx.xml
+/lib/libgrx20X.so.2.4.9
+/lib/libgrx20X.so.2
+
+
